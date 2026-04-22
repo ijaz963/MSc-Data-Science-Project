@@ -17,6 +17,13 @@ Features: 14,608 unique Accessory Protein Families (PGFams).
 Target: Binary classification (Susceptible vs. Resistant to Amoxicillin).
 
 Graph Construction: A bipartite adjacency matrix where edges represent the presence of a PGFam within a genome.
+DATA ACCESS:
+LABELS, EDGES, AND MEMBERSHIP DATA
+LINK 1: https://drive.google.com/drive/folders/1SDN3T3ex7cyELjXQP14SO-XSI3uRFgHE?usp=sharing
+
+EDGE INDEX, GENOME MAPPING, PROTIEN FAMILY MAPPING, AND Y_TENSORS
+LINK 2: https://drive.google.com/drive/folders/129Og8NrQeSn3jbVr8qiV66wH6knVYXs3?usp=sharing
+
 🧠 Model Architecture
 
 The model is built using PyTorch Geometric with a 2-layer GCN architecture:
